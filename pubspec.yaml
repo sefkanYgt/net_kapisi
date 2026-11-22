@@ -1,0 +1,27 @@
+name: soru_uretim_merkezi
+description: YKS ve KPSS için yapay zeka destekli soru üretim merkezi.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.2
+  shared_preferences: ^2.3.2
+  http: ^1.2.2
+  pdf: ^3.11.1
+  printing: ^5.13.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+dependency_overrides:
+  image: 4.5.4
+
+flutter:
+  uses-material-design: true
