@@ -35,7 +35,7 @@ flutter run --dart-define=GEMINI_API_KEY=KENDI_ANAHTARIN
 2. Login ekranında kullanıcı adı/şifre alanlarını boş bırakıp giriş yapmayı deneyin.
 3. **Beklenen:** "Kullanıcı adı ve şifre boş olamaz." hatası görünür; dolu bilgiyle giriş yapınca ana sayfaya geçilir.
 
--> 2. Seviye belirleme
+-> Seviye belirleme
 1. Ana sayfada "Seviye" sekmesine girin, bir ders ve konu seçin, "Belirle" butonuna basın.
 2. **Beklenen:** Gemini API'den 1 kolay + 2 orta + 2 zor olmak üzere 5 soru gelir, sorular sırayla gösterilir.
 3. Soruları cevaplayın.
